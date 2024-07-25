@@ -104,7 +104,7 @@ main {
 
 .first {
     background-color: var(--moderate-violet);
-    background-image: url(/images/bg-pattern-quotation.svg);
+    background-image: url(../../images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top 0 right 1.5rem;
 }
