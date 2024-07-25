@@ -55,6 +55,7 @@ main {
     display: flex;
     flex-direction: column;
     font-weight: 400;
+    max-height: 2rem;
 }
 
 .card .profile .id .name {
