@@ -1,0 +1,46 @@
+@media(min-width: 1024px) and (orientation: landscape) {
+
+    main {
+        min-height: 100vh;
+    }
+
+    .container {
+        padding: clamp(3rem, 10rem - 2880px + 200vw, 15rem);
+        column-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 21fr 19fr;
+        grid-template-areas: "a a b e"
+                             "c d d e";
+    }
+
+    .first {
+        grid-area: a;
+        background-position: top 0 right 5rem;
+    }
+
+    .second {
+        grid-area: b;
+    }
+
+    .third {
+        grid-area: c;
+    }
+
+    .fourth {
+        grid-area: d;
+    }
+
+    .fifth {
+        grid-area: e;
+    }
+
+    .card {
+        gap: 1.2rem;
+        padding: 1.5rem 2rem;
+        box-shadow: rgba(149, 157, 165, 0.2) 25px 50px 24px -20px;
+    }
+
+    .card p, .card blockquote {
+        padding: 0;
+    }
+}
