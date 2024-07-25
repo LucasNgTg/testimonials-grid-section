@@ -43,6 +43,7 @@ Users should be able to:
 ### What I learned
 
 The smallest desktop screen size is 1024x600.
+Note to self: Do not use `<br/>`.
 
 ## Author
 
